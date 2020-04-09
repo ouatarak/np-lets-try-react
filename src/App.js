@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import { Button, Icon } from 'semantic-ui-react';
 import './App.css';
 import ModalExampleCloseIcon from './test.js';
+import GridExampleContainer from './test1.js';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Icon name="download" />
           Download
         </Button>
+        <GridExampleContainer />
       </header>
     </div>
   );
